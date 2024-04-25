@@ -1,0 +1,15 @@
+.carousel .slide {
+    width: 300px; /* adjust as needed */
+    height: 450px; /* adjust as needed */
+    margin: 0 10px; /* add some margin between slides */
+    overflow: hidden; /* clip the content to the slide's dimensions */
+    border-radius: 5px; /* round the corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* add a shadow */
+}
+
+.carousel .slide img {
+    width: 100%; /* make the image fill the slide */
+    height: 100%; /* make the image fill the slide */
+    border-radius: 5px; /* round the corners */
+    transition: transform 0.3s ease-in-out; /* add a smooth scaling effect */
+}
